@@ -6,7 +6,7 @@ public class Test{
       Test4 four = new Test4('h','s');
       one.add();
       two.subtract();
-      three.combine();
       four.diff();
+      three.combine();
    }
 }
