@@ -1,5 +1,5 @@
 # CS 3354 Team Project
-## Title: TBD
+## Title: Dietary Assistant
 ### Members
 1. Saumil Nalin
 2. Jonathan Vu
