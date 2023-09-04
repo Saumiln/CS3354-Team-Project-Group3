@@ -7,6 +7,6 @@ public class Test{
       one.add();
       two.subtract();
       four.diff();
-      three.combine();
+      three.add();
    }
 }
