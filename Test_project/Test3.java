@@ -1,14 +1,18 @@
 class Test3{
-   private char uno;
-   private char dos;
+   private int uno;
+   private int dos;
    
-   public Test3(char one, char two) {
+   public Test3(int one, int two) {
       uno = one;
       dos = two;
    }
    
-   public void combine(){
-      String tres = "" + uno + dos;
-      System.out.println(tres);
+
+   
+   public void add(){
+      int sum = uno + dos;
+      System.out.println(sum);
    }
+
+  
 }
