@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calorie Input</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #45B85E;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .input-section {
+    margin: 20px;
+    padding: 20px;
+  }
+  .input-label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #45B85E;
+    border: none;
+    border-radius: 5px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome Back!</h1>
+</div>
+
+<div class="input-section">
+  <label for="calories" class="input-label">Input Calories:</label>
+  <input type="text" id="calories" name="calories" placeholder="Enter your calories here..." class="input-field">
+  <button class="button">Enter</button>
+</div>
+
+<div class="nav">
+  <button>Home</button>
+  <button>Menu</button>
+  <button>Calendar</button>
+</div>
+
+</body>
+</html>
